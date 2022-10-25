@@ -21,7 +21,7 @@ const TweetImageModal = styled("div", {
 const TweetImageModalContent = styled("div", {
   maxWidth: "50vw",
   maxHeight: "100vh",
-  overflowY: "scroll",
+  overflowY: "auto",
 });
 
 export interface TweetImageProps {
